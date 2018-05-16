@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jxta:CP>
+<jxta:CP type="jxta:PlatformConfig" xmlns:jxta="http://jxta.org">
+	<PID>
+		urn:jxta:uuid-59616261646162614E50472050325033F411501145784F018E74C0DFFCE135E803
+	</PID>
+	<Name>
+		gaiqs-pc
+	</Name>
+	<Desc>
+		Created by AndroidTester
+	</Desc>
+	<Svc>
+		<MCID>
+			urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000A05
+		</MCID>
+		<Parm>
+			<jxta:TransportAdvertisement xmlns:jxta="http://jxta.org" xml:space="preserve" type="jxta:HTTPTransportAdvertisement">
+<Protocol>http</Protocol><ConfigMode>auto</ConfigMode><Port>9700</Port><ServerOff/>			</jxta:TransportAdvertisement>
+		</Parm>
+	</Svc>
+	<Svc>
+		<MCID>
+			urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000905
+		</MCID>
+		<Parm>
+			<jxta:TransportAdvertisement xmlns:jxta="http://jxta.org" xml:space="preserve" type="jxta:TCPTransportAdvertisement">
+<Protocol>tcp</Protocol><ConfigMode>auto</ConfigMode><Port start="9701" end="9799">9701</Port><MulticastOff/><MulticastAddr>224.0.1.85</MulticastAddr><MulticastPort>1234</MulticastPort><MulticastSize>16384</MulticastSize>			</jxta:TransportAdvertisement>
+		</Parm>
+	</Svc>
+	<Svc>
+		<MCID>
+			urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000F05
+		</MCID>
+		<Parm type="jxta:RelayConfig" xmlns:jxta="http://jxta.org" xml:space="preserve" client="true">
+<client/><server/>		</Parm>
+	</Svc>
+	<Svc>
+		<MCID>
+			urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000605
+		</MCID>
+		<Parm type="jxta:RdvConfig" xmlns:jxta="http://jxta.org" xml:space="preserve" config="client">
+<seeds><addr seeding="true">http://xushu.cc/rdvlist.txt</addr></seeds>		</Parm>
+	</Svc>
+	<Svc>
+		<MCID>
+			urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000505
+		</MCID>
+		<Parm type="jxta:PSEConfig" xmlns:jxta="http://jxta.org" xml:space="preserve">
+<RootCert><Certificate>MIICDjCCAXegAwIBAgIBATANBgkqhkiG9w0BAQUFADBNMRUwEwYDVQQKDAx3d3cuanh0YS5vcmcx
+FTATBgNVBAMMDHByaW5jaXBhbC1DQTEdMBsGA1UECwwUMkMzQkJERjM3OUI1MTRFOTUyRjIwHhcN
+MTgwNTE2MDkzNjUxWhcNMjgwNTE2MDkzNjUxWjBNMRUwEwYDVQQKDAx3d3cuanh0YS5vcmcxFTAT
+BgNVBAMMDHByaW5jaXBhbC1DQTEdMBsGA1UECwwUMkMzQkJERjM3OUI1MTRFOTUyRjIwgZ8wDQYJ
+KoZIhvcNAQEBBQADgY0AMIGJAoGBALWkkHP60iNOxy8vdGVqsLfsZ1N2e8AZbMn4PBe+aqzHIRKs
+MPk8pNaguqocs6E87P5ZU31J4iEIIgFbTRw81upAzA4iwOdw3Y1LPiQwglpibvNCc9Wv6N/1q4dH
+enfpzOt8gmTISOlqomN+mi6BNxCem1hybi4AOQnXeyn3nistAgMBAAEwDQYJKoZIhvcNAQEFBQAD
+gYEAc6PlZRM5gzOl7ATYzDwYAl9IYLZ3IO9UpOn1Ml6lvBq2CFZIRyibsBUHOkOm/2+0t0LtP8+Q
+7MNeb6OhoLDDjkkY5+8kUPbCs9xWr7r+MuVnhZztGM/HyTixfoC1GOkeKv5BKDJqZjwUD+soMy+Z
+/sfm5eewES1q21IE2T/pGoQ=</Certificate><EncryptedPrivateKey algorithm="RSA">MIICoTAbBgkqhkiG9w0BBQMwDgQIiWDI4A/qEp8CAgH0BIICgKP1k7oTh3muXHPDU58Ju65WnKD3
+AFPzWT13nJtD9Z0kC/F8nt6HFOSmUr51w7LQnB0MSB1EzIiY8Hz7gucVabbHoGf0GF6mTpUn20Ib
+OHBKIZu3r7l8aMSYk5Mst8RaXQXWIdfn3QyZCfkRo1Tc3YrO+E6tuBQ/ZtSays1lFMLRqej0axlS
+jl9yCUX+agea40xP2SKSfO2h/5onGj7paYSKm/PAqAnKCW2vFhfa6553ONMj39GYI8E5ttzCQYBj
+QOfHX3TZU1hRWzJMmxPBxPJyhwlfoSVn3N70p+75KB0e7h7wT0iU9WFDI1XDZti6h+GZ0c3IE7No
+4e7JXZ4MXyoKcWPQwXXXfG2QxJZTOH1ywWuhwwP5AWWg4FeEv0p6t2CxnM4EzLp0KWKa3W+OaVFQ
+YNmJmT4myn+dX0AL2iq7tOzCffbACmh8pKgb9nQj0OhlIin1WQD53jGMqcHCbySZe8QEhn5Lvns9
+9Zejex+K3CxTmhVA1aWW8Mw5NKg5p2p7j6nmFce6w/ilXJzjAft5pUQ3D2yO+SazCL6I6izh4isp
+XhQuKJ/ICmd1ewzPk4hoL6aPSlITeSNfAYAFsH+KGe3icY4nrNkLRE5+lOl7G2qNCQxV5fVOouBp
+5bv74EsfX5IinQLBTpkX7haDJN034Ew8DNyVt+/zOCYMr9SDnjTq2gCY3fctcVSB40OSaGxx68nP
+Q6XC6xiMr1xiBtTRtN6OlW02EQupK64GQOO5RSAxVq5WyXSxGoZw1H/sCUY9A44H9qwqn8WCFsuK
+hF6xGKvvfaIi4+k+BlfJvzwwjcOx9vXpl4hslP/PXhUGccW/mWlHfjz7tzPJuOLBoWI=</EncryptedPrivateKey></RootCert>		</Parm>
+	</Svc>
+</jxta:CP>
